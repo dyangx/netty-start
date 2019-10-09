@@ -15,11 +15,10 @@ import java.net.InetSocketAddress;
 
 public class EchoServer {
 
-    private final int port = 7070;
+    private static final int port = 7070;
 
     public static void main(String[] args) {
 
-        int port = Integer.parseInt(args[0]);
         new Thread(() ->{
             final EchoServerHandler echoServerHandler = new EchoServerHandler();
             EventLoopGroup group = new NioEventLoopGroup();
