@@ -1,4 +1,4 @@
-package com.dyangx.netty.client;
+package com.dyangx.push.client;
 
 import io.netty.buffer.ByteBuf;
 import io.netty.channel.ChannelHandlerContext;

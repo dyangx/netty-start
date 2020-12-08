@@ -1,4 +1,4 @@
-package com.dyangx.netty.client;
+package com.dyangx.push.client;
 
 import io.netty.bootstrap.Bootstrap;
 import io.netty.channel.ChannelFuture;

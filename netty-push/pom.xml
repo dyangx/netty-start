@@ -8,10 +8,10 @@
         <version>2.1.8.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.dyangx</groupId>
-    <artifactId>push</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>netty-push</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>push</name>
+    <name>netty-push</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -43,12 +43,22 @@
             <version>1.18.8</version>
             <scope>provided</scope>
         </dependency>
+
+        <dependency>
+            <groupId>io.socket</groupId>
+            <artifactId>socket.io-client</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.corundumstudio.socketio</groupId>
+            <artifactId>netty-socketio</artifactId>
+            <version>1.7.17</version>
+        </dependency>
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
             <version>1.2.59</version>
         </dependency>
-
     </dependencies>
 
     <build>

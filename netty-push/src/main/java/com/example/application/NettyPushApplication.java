@@ -1,13 +1,13 @@
-package com.dyangx.netty;
+package com.example.application;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class NettyApplication {
+public class NettyPushApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(NettyApplication.class, args);
+        SpringApplication.run(NettyPushApplication.class, args);
     }
 
 }
