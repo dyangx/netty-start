@@ -19,6 +19,7 @@
 *.tar.gz
 *.rar
 */target/*
+*/build/*
 
 *.iws
 *.iml
