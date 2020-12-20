@@ -13,7 +13,7 @@ import java.util.List;
  */
 public class ChanneList {
 
-    private static List<Channel> channelList = null;
+    private volatile static List<Channel> channelList = null;
 
     private ChanneList(){}
 
